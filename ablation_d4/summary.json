@@ -1,0 +1,53 @@
+{
+  "n_test": 100,
+  "device": "mps",
+  "checkpoint_sha256": {
+    "single": "efe404aa5ac0746ac355304feb365e06cb976841370cd75a62f84ecd719d11d2",
+    "d4": "b64cfceacd7f2db2a665756ae2a28104a9def77497e1f384a36f93c6d5a78a1b"
+  },
+  "mean_rgb_psnr_db": {
+    "train_single_infer_single": 24.777204372541973,
+    "train_single_infer_d4": 24.81478465900911,
+    "train_d4_infer_single": 23.975809863716357,
+    "train_d4_infer_d4": 24.867722998534177
+  },
+  "paired_differences": {
+    "d4_full_minus_single_full": {
+      "mean_db": 0.09051862599220183,
+      "median_db": 0.07580281122733545,
+      "min_db": -0.05187606113380738,
+      "max_db": 0.37166118136615367,
+      "wins": 99,
+      "ties": 0,
+      "losses": 1
+    },
+    "inference_gain_on_single_weights": {
+      "mean_db": 0.037580286467133524,
+      "median_db": 0.02914916352969321,
+      "min_db": 0.0019038739699368534,
+      "max_db": 0.2636008048945513,
+      "wins": 100,
+      "ties": 0,
+      "losses": 0
+    },
+    "inference_gain_on_d4_weights": {
+      "mean_db": 0.8919131348178159,
+      "median_db": 0.7612578938847285,
+      "min_db": 0.23535358775378867,
+      "max_db": 2.991836812270183,
+      "wins": 100,
+      "ties": 0,
+      "losses": 0
+    },
+    "training_gain_at_d4_inference": {
+      "mean_db": 0.0529383395250683,
+      "median_db": 0.04683007859353694,
+      "min_db": -0.31547686602835867,
+      "max_db": 0.3143837826440077,
+      "wins": 95,
+      "ties": 0,
+      "losses": 5
+    }
+  },
+  "max_abs_difference_vs_published_d4_db": 0.0
+}

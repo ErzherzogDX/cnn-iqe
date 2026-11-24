@@ -1,0 +1,33 @@
+{
+  "n_test": 100,
+  "mean_x265": 24.516929483972046,
+  "mean_qecnn": 24.737639061009254,
+  "mean_proposed": 24.867722998534177,
+  "gain_vs_qecnn": 0.13008393752491906,
+  "gain_vs_x265": 0.3507935145621321,
+  "improved_vs_qecnn": 98,
+  "median_gain_vs_qecnn": 0.11220628932015408,
+  "min_gain_vs_qecnn": -0.0044987275450409925,
+  "max_gain_vs_qecnn": 0.6708613040868059,
+  "thresholds_met": true,
+  "examples": {
+    "min": {
+      "image": 93,
+      "x": 184,
+      "y": 113,
+      "size": 96
+    },
+    "typical": {
+      "image": 50,
+      "x": 318,
+      "y": 58,
+      "size": 96
+    },
+    "max": {
+      "image": 63,
+      "x": 55,
+      "y": 171,
+      "size": 96
+    }
+  }
+}
